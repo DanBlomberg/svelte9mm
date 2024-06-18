@@ -28,9 +28,10 @@
     autoRotateSpeed={6} 
   />
 
-
 </T.PerspectiveCamera >
 
+<T.DirectionalLight />
+<T.AmbientLight />
 
   <T.Group position = {[1, 2, 3]} scale={2}>
      <Gun>
