@@ -32,7 +32,7 @@
 </T.PerspectiveCamera >
 
 
-  <T.Group position = {[0, 1, 0]} scale={2}>
+  <T.Group position = {[1, 2, 3]} scale={2}>
      <Gun>
       <GLTF></GLTF>
      </Gun>
