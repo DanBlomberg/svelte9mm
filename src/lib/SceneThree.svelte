@@ -17,23 +17,23 @@
 
 <T.PerspectiveCamera 
   makeDefault 
-  position={[10, 0, 0]} 
-  zoom={15} 
+  position={[8, 5, 3]} 
+  zoom={40} 
   fov{100}  
   target={[0, 0, 0]}>
 
   <OrbitControls 
-    autoRotate 
     enableDampening 
-    autoRotateSpeed={6} 
   />
 
 </T.PerspectiveCamera >
 
+<Sky />
+
 <T.DirectionalLight />
 <T.AmbientLight />
 
-  <T.Group position = {[1, 2, 3]} scale={2}>
+  <T.Group position = {[0, 0, 0]} scale={2}>
      <Gun>
       <GLTF></GLTF>
      </Gun>
