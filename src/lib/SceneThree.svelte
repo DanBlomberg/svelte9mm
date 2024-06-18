@@ -17,10 +17,10 @@
 
 <T.PerspectiveCamera 
   makeDefault 
-  position={[8, 5, 3]} 
-  zoom={40} 
-  fov{100}  
-  target={[0, 0, 0]}>
+  position={[.25, .25, .25]} 
+  zoom={1} 
+  fov{10}  
+  target={[.25, .25, .25]}>
 
   <OrbitControls 
     enableDampening 
@@ -29,9 +29,12 @@
 </T.PerspectiveCamera >
 
 <Sky />
+<Grid />
 
 <T.DirectionalLight />
-<T.AmbientLight />
+<T.AmbientLight
+  intensity={0.5}
+/>
 
   <T.Group position = {[0, 0, 0]} scale={2}>
      <Gun>

@@ -69,8 +69,8 @@
 	}
 	.canvas-wrapper-gltf {
 		position: relative;
-		height: 300px;
-		width: 600px;
+		height: 400px;
+		width: 1200px;
     border: 2px;
 	}
 	.canvas-wrapper-grid {
