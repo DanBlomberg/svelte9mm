@@ -3,7 +3,8 @@
   import { T } from '@threlte/core'
   import { Mesh } from 'three'
   import { Grid, GLTF, OrbitControls, Sky} from '@threlte/extras'
-  import Gun from '$lib/models/9MM.svelte';
+  import Gun from '$lib/models/9MM.svelte'
+
 </script>
 
 <GLTF
@@ -24,13 +25,12 @@
   <OrbitControls 
     autoRotate 
     enableDampening 
-    autoRotateSpeed={2} 
+    autoRotateSpeed={6} 
   />
 
 
 </T.PerspectiveCamera >
 
-      <hemisphereLight intensity={0.8} />
 
   <T.Group position = {[0, 1, 0]} scale={2}>
      <Gun>
