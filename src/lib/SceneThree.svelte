@@ -38,6 +38,7 @@
 
   <T.Group position = {[0, 0, 0]} scale={2}>
      <Gun>
+      castShadow
       <GLTF></GLTF>
      </Gun>
   </T.Group>

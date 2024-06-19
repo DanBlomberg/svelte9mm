@@ -33,10 +33,11 @@
   }
 </script>
 
+
 <T.PerspectiveCamera
   makeDefault
   position={[50, 50, 50]}
-  fov={15}
+  fov={25}
 >
   <OrbitControls autoRotate />
 </T.PerspectiveCamera>
@@ -45,6 +46,7 @@
   position.y={10}
   position.z={15}
 />
+
 
 <Align>
   <T.Points>
@@ -60,7 +62,10 @@
         }}
       />
     </T.BufferGeometry>
-    <T.PointsMaterial size={0.25} />
+    <T.PointsMaterial 
+      size={0.05} 
+      color="#fe3d00"
+    />
   </T.Points>
 </Align>
 

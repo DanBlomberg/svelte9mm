@@ -13,7 +13,16 @@
 
 </T.PerspectiveCamera>
 
-<Sky /> 
+<Sky 
+  turbidity={10}
+  Exposure={0.37}
+  Elevation={0.10}
+  Raylength={3.00}
+  Azimuth={180.00}
+  mieCoefficient={0.005}
+  mieDirectionalG={0.80}
+
+/>
 
 <T.Mesh position={[0, 0, 0]} >
   <T.SphereGeometry />
